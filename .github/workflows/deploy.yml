@@ -32,5 +32,3 @@ jobs:
           project: "turabali-deno-portfo-38"
           entrypoint: "main.ts"
           root: "."
-          
-          
