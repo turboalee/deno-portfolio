@@ -348,7 +348,7 @@ function Contact() {
             <p>
                 Contact me via{" "}
                 <a
-                    href="mailto:turab@example.com"
+                    href="mailto:contact@turaba.ovh"
                     class="text-primary underline"
                 >
                     email
