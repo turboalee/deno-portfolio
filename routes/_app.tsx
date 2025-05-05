@@ -65,7 +65,7 @@ export default function App({ Component }: PageProps) {
         {
             name: "Email",
             url: "mailto:contact@turaba.ovh",
-            icon: "line-md:email-filled",
+            icon: "fa-solid:envelope",
         },
         {
             name: "LinkedIn",
