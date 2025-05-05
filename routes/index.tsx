@@ -342,31 +342,6 @@ function Technologies() {
     );
 }
 
-// function Contact() {
-//   return (
-//     <section class="p-4 my-8 text-center text-base">
-//       <p>
-//         Contact me via{" "}
-//         <a
-//           href="mailto:contact@turaba.ovh"
-//           class="text-primary underline"
-//         >
-//           email
-//         </a>{" "}
-//         or visit my{" "}
-//         <a
-//           href="https://github.com/turboalee"
-//           target="_blank"
-//           class="text-primary underline"
-//         >
-//           GitHub
-//         </a>
-//         .
-//       </p>
-//     </section>
-//   );
-// }
-
 export default function Home() {
     return (
         <>
@@ -376,7 +351,6 @@ export default function Home() {
             <DataVisualizationWorks />
             <Experience />
             <Technologies />
-            <Contact />
         </>
     );
 }
