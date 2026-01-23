@@ -34,6 +34,8 @@ loadIcons([
     "material-icon-theme:go",
     "devicon:git",
     "logos:tableau-icon",
+    "logos:mysql",
+    "vscode-icons:file-type-excel"
 ]);
 
 function Hero() {
@@ -126,13 +128,13 @@ function Experience() {
         {
             title: "Data Analyst",
             company: "iCore Business Solutions",
-            timePeriod: "Dec 2024 - Jan 2025",
+            timePeriod: "Sept 2024 - Jan 2025",
             location: "Quetta, Pakistan",
         },
         {
             title: "Junior Web Developer",
-            company: "iCore Business Solutions",
-            timePeriod: "Sep 2024 - Nov 2024",
+            company: "Razite Pvt. Ltd.",
+            timePeriod: "Aug 2025 - Oct 2025",
             location: "Quetta, Pakistan",
         },
     ];
@@ -321,6 +323,8 @@ function Technologies() {
         "vscode-icons:file-type-mongo",
         "devicon:git",
         "logos:tableau-icon",
+        "logos:mysql",
+        "vscode-icons:file-type-excel"
     ];
 
     return (

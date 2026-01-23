@@ -101,7 +101,6 @@ export default function App({ Component }: PageProps) {
                 </main>
                 <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
                     <aside>
-                        <span>MIT licensed with ❤️ by Michael</span>
                         <span>
                             3D Art by{" "}
                             <a
