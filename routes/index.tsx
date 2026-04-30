@@ -124,13 +124,13 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Data Analyst",
+      title: "Data Analyst & Software Engineer Intern",
       company: "iCore Business Solutions",
       timePeriod: "Sept 2024 - Jan 2025",
       location: "Quetta, Pakistan",
     },
     {
-      title: "Junior Web Developer",
+      title: "IT Specialist",
       company: "Razite Pvt. Ltd.",
       timePeriod: "Aug 2025 - Oct 2025",
       location: "Quetta, Pakistan",
