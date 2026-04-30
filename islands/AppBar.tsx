@@ -27,18 +27,14 @@ export default function AppBar() {
   return (
     <nav class="flex justify-between items-center p-2">
       <a href="/" class="text-xl font-bold flex items-center">
-        <Icon
-          icon="fa6-brands:dev"
-          width="none"
-          height="none"
-        />
+        <Icon icon="fa6-brands:dev" width="none" height="none" />
         Portfolio
       </a>
       <ul class="flex gap-2">
         <li>
           <a
             class="btn btn-primary text-base-100"
-            href="/cv.pdf"
+            href="/Turab_Ali_s_CV.pdf"
             download
           >
             Download CV
