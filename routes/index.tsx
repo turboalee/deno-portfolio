@@ -25,12 +25,9 @@ loadIcons([
   "skill-icons:tailwindcss-dark",
   "devicon:nodejs",
   "vscode-icons:file-type-mongo",
-  "logos:postgresql",
   "logos:mariadb-icon",
   "skill-icons:cassandra-light",
-  "skill-icons:docker",
   "openmoji:golang",
-  "devicon:svelte",
   "material-icon-theme:go",
   "devicon:git",
   "logos:tableau-icon",
@@ -306,13 +303,9 @@ function DataVisualizationWorks() {
 
 function Technologies() {
   const technologies = [
-    "material-icon-theme:go",
     "vscode-icons:file-type-js-official",
     "logos:html-5",
-    "logos:css-3",
-    "logos:typescript-icon",
     "skill-icons:react-dark",
-    "devicon:svelte",
     "skill-icons:tailwindcss-dark",
     "devicon:nodejs",
     "vscode-icons:file-type-mongo",
