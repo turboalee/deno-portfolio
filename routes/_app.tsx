@@ -97,7 +97,18 @@ export default function App({ Component }: PageProps) {
           <Component />
         </main>
         <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
-          <aside></aside>
+          <aside>
+            <span>
+              3D Art by{" "}
+              <a
+                class="underline"
+                href="https://sketchfab.com/KJLOYH"
+                target="_blank"
+              >
+                Turab Ali
+              </a>
+            </span>
+          </aside>
           <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             {socials.map((social) => (
               <a href={social.url} target="_blank" aria-label={social.name}>
