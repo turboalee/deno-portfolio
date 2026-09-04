@@ -28,15 +28,15 @@ class SpinningModel extends Component {
     controls.autoRotate = true;
 
     renderer.setSize(dimensions.x, dimensions.y);
-    document.getElementById("model-container")?.appendChild(
-      renderer.domElement,
-    );
+    document
+      .getElementById("model-container")
+      ?.appendChild(renderer.domElement);
 
     const loader = new GLTFLoader(loadingManager);
     let model: THREE.Object3D | undefined;
 
     loader.load(
-      "../scene.gltf", // replace with the path to your model
+      "/img/model.glb", // replace with the path to your model
       function (gltf: THREE.GLTF & { scene: THREE.Scene }) {
         model = gltf.scene;
         scene.add(gltf.scene);
@@ -73,7 +73,7 @@ class SpinningModel extends Component {
     const light = new THREE.AmbientLight(0x404040, 75); // soft white light
     scene.add(light);
 
-    camera.position.z = 0.65;
+    camera.position.z = 1.5;
     controls.update();
   }
 
@@ -86,10 +86,7 @@ class SpinningModel extends Component {
         >
           <span>Loading 3D Model</span>
         </div>
-        <div
-          id="model-container"
-          class="w-full h-full"
-        />
+        <div id="model-container" class="w-full h-full" />
       </div>
     );
   }
