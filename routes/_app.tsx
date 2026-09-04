@@ -98,11 +98,7 @@ export default function App({ Component }: PageProps) {
         </main>
         <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
           <aside>
-            <span>
-              3D Art by{" "}
-                Turab Ali
-              </a>
-            </span>
+            <span>3D Art by Turab Ali</span>
           </aside>
           <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             {socials.map((social) => (
