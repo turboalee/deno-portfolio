@@ -100,11 +100,6 @@ export default function App({ Component }: PageProps) {
           <aside>
             <span>
               3D Art by{" "}
-              <a
-                class="underline"
-                href="https://sketchfab.com/KJLOYH"
-                target="_blank"
-              >
                 Turab Ali
               </a>
             </span>
