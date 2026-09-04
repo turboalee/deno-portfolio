@@ -36,14 +36,14 @@ class SpinningModel extends Component {
     let model: THREE.Object3D | undefined;
 
     loader.load(
-      "/img/model.glb", // replace with the path to your model
+      "/img/model.glb", // adjust "model.glb" to your actual filename
       function (gltf: THREE.GLTF & { scene: THREE.Scene }) {
         model = gltf.scene;
         scene.add(gltf.scene);
 
-        // rotate to align the model
-        gltf.scene.rotation.y = -1.5;
-        gltf.scene.rotation.x = 0.25;
+        // portrait bust — likely facing forward already, start at 0
+        gltf.scene.rotation.y = 0;
+        gltf.scene.rotation.x = 0;
 
         // put the model in the middle of the scene
         const box = new THREE.Box3().setFromObject(gltf.scene);
@@ -52,7 +52,7 @@ class SpinningModel extends Component {
         gltf.scene.position.sub(center);
 
         // scale the model to fit the scene
-        const scale = 1.3;
+        const scale = 1.0; // tweak from here
         gltf.scene.scale.set(scale, scale, scale);
 
         const animate = function () {
