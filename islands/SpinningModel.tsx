@@ -73,7 +73,7 @@ class SpinningModel extends Component {
     const light = new THREE.AmbientLight(0x404040, 75); // soft white light
     scene.add(light);
 
-    camera.position.z = 1.5;
+    camera.position.z = 2.1;
     controls.update();
   }
 
